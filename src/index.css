@@ -5,9 +5,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #181818 !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1 {
+  color: white;
+  margin: 1em;
+  font-weight: 600 !important;
+  letter-spacing: 1px;
+}
+
+.nav {
+  flex-wrap: nowrap !important;
+}
+
+.nav-link {
+  color: #cccccc;
+  min-width: 130px;
+}
+
+.navbar {
+  display: inline-flex !important;
+}
+
+.card-img {
+  border-color: #181818 !important;
+  margin: 30px;
+  max-height:200px;
+  min-height:190px;
+  max-width: 150px;
+  min-width: 130px !important;
+  transition: all 0.3s;
+}
+
+.form-control {
+  margin: 30px;
+  max-width: 80% !important; 
+}
+
+.card-img:hover {
+  transform: scale(1.1);
+}
+
+.img-brand {
+  width: 120px;
 }
