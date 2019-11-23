@@ -20,6 +20,14 @@ h1 {
   letter-spacing: 1px;
 }
 
+.loading {
+  display: block;
+}
+
+.loading-img {
+  width: 300px !important;
+}
+
 .nav {
   flex-wrap: nowrap !important;
 }
@@ -36,8 +44,8 @@ h1 {
 .card-img {
   border-color: #181818 !important;
   margin: 30px;
-  max-height:200px;
-  min-height:190px;
+  max-height: 200px;
+  min-height: 190px;
   max-width: 150px;
   min-width: 130px !important;
   transition: all 0.3s;
@@ -45,7 +53,7 @@ h1 {
 
 .form-control {
   margin: 30px;
-  max-width: 80% !important; 
+  max-width: 80% !important;
 }
 
 .card-img:hover {
